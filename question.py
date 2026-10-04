@@ -8,7 +8,7 @@ questions = [
         "answer" : "git init"
     },
     {
-            "question" : "what comand shows git status?",
-            "answer" : "git status"
+        "question" : "what comand shows git status?",
+        "answer" : "git status"
     }
 ]
