@@ -2,7 +2,6 @@
 A simple quiz game built with python
 
 ## Table of contaxt
-- [Table of contaxt](#table-of-contaxt)
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Requirements](#requirements)
@@ -10,6 +9,7 @@ A simple quiz game built with python
 - [Environment Setup](#environment-setup)
 - [Usage](#usage)
 - [Example Output](#example-output)
+- [screenshot](#screenshot)
 - [Roadmap](#roadmap)
 - [Contributing](#contributing)
 - [Licence](#licence)
@@ -108,7 +108,17 @@ correct
 your score is:  2 out of 3
 good job sana
 ``` 
-## Roadmap
+## screenshot
+
+### start game
+![start game](pictures\3.png)
+
+### quiz
+![start game](pictures\2.png)
+
+### final score
+![start game](pictures\1.png)
+
 ## Roadmap
 ‌
 - [x] add multiple quiz questions
