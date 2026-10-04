@@ -1,4 +1,8 @@
+
 # Python Quiz Game
+
+![Static Badge](https://img.shields.io/badge/python-3.12-pink)
+
 A simple quiz game built with python
 
 ## Table of contaxt
@@ -18,39 +22,50 @@ A simple quiz game built with python
 ## Features
 
 - Quiz System
-  - Asks the player multiple questions
-  - Checks the answers automatically
-  - Calculates the final score
-
-- Results storage
-  - Saves quiz results in `results.txt`
-
-- Admin Mode
-  - Asks for the admin password
+  - Asks the player multiple questions 
   - Checks if the password is correct
   - Keeps the private information outside the main Python file
   - Loads the password from `.env`
   
 ## Project Structure
 
-```text
-mini_store/
-│   .env.example
-│   .gitignore
-│   main.py
-│   prouduct.py
-│   requirements.txt
-│   README.md
+## Project Structure
 
+```text
+python_quiz_game/
+│
+├── .env.example
+├── .gitignore
+├── main.py
+├── question.py
+├── README.md
+├── requirements.txt
+│
+├── gifs/
+│   └── demo.gif
+│
+└── pictures/
+    ├── 1.png
+    ├── 2.png
+    └── 3.png
 ```
-### File Description 
-- ` main.py ` - main file used to run mini shop
-- ` prouduct.py ` - varios products store
-- ` requirements.txt ` - list the python packages meeded for the project
-- `.env.example ` - shows the envoiment variables needed by the project
-- `.gitignore ` - tells git which files and folders shold not be tracket
-- `.README.md ` - contains  the project documentation
-  
+### File Description
+
+| file | description |
+| --- | --- |
+| `main.py` | main file used to run quiz game |
+| `question.py` | stores questions and answers |
+| `requirements.txt` | lists the python packages needed for the project |
+| `.env.example` | shows the environment variables needed by the project |
+| `.gitignore` | tells git which files and folders should not be tracked |
+| `README.md` | contains the project documentation |
+| `pictures/` | stores project screenshots |
+| `pictures/1.png` | screenshot of the game start |
+| `pictures/2.png` | screenshot of the quiz section |
+| `pictures/3.png` | screenshot of the final result |
+| `gifs/` | stores demo GIF files |
+| `gifs/demo.gif` | shows the project demo |
+
 ## Requirements
 Before running the project, make sure you have:
 - `Python 3`
@@ -119,6 +134,9 @@ good job sana
 ### final score
 ![start game](pictures\1.png)
 
+## Demo
+
+![quiz gamedemo](gifs\Animation.gif)
 ## Roadmap
 ‌
 - [x] add multiple quiz questions
