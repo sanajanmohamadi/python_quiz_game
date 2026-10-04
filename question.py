@@ -4,11 +4,21 @@ questions = [
         "answer" : "python"
     },
     {
-        "question" : "what comand start a git?",
+        "question" : "what command start a git?",
         "answer" : "git init"
     },
     {
-        "question" : "what comand shows git status?",
+        "question" : "what command shows git status?",
         "answer" : "git status"
     }
+    {
+        "question" : "what command shows git history?",
+        "answer" : "git log"
+    }
+        {
+        "question" : "what command send commits to GenHub?",
+        "answer" : "git push"
+    }
+    
+    
 ]
