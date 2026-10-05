@@ -10,15 +10,15 @@ questions = [
     {
         "question" : "what command shows git status?",
         "answer" : "git status"
-    }
+    },
     {
         "question" : "what command shows git history?",
         "answer" : "git log"
-    }
+    },
     {
         "question" : "what command send commits to GenHub?",
         "answer" : "git push"
-    } 
+    },
     {
         "question" : "what command show git branch?",
         "answer" : "git branch"

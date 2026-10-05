@@ -3,7 +3,7 @@
 
 ![Static Badge](https://img.shields.io/badge/python-3.12-pink)
 
-A simple quiz game built with python
+A simple quiz game built with Python
 
 ## Table of contaxt
 - [Features](#features)
